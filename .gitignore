@@ -21,3 +21,26 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#START
+# PLEASE PLACE CUSTOM GIT IGNORES BELOW #END
+#
+# ANYTHING YOU PLACE BEFORE THE END TAG
+# WILL BE OVERWRITTEN BY ecc-dotfiles
+# INSTALL-SCRIPT
+
+# node && npm
+npm-debug.log
+yarn-error.log
+
+# ignore symlinks
+Makefile
+
+# ignore compiled
+dist/*
+.tmp/
+
+# ignore data folders by jetbrains products
+.idea/
+
+#END

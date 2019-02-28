@@ -1,0 +1,154 @@
+body {
+  background-color: black;
+}
+p {
+  color: white;
+}
+
+.twelve {
+  position: absolute;
+  padding-left: 717px;
+  padding-top: 55px;
+
+}
+.one {
+  position: absolute;
+  padding-left: 875px;
+  padding-top: 95px;
+}
+
+.two {
+  position: absolute;
+  padding-left: 990px;
+  padding-top: 210px;
+}
+
+.tree {
+  position: absolute;
+  padding-left: 1028px;
+  padding-top: 365px;
+}
+
+.four {
+  position: absolute;
+  padding-left: 987px;
+  padding-top: 518px;
+}
+
+.five {
+  position: absolute;
+  padding-left: 875px;
+  padding-top: 632px;
+}
+
+.six {
+  position: absolute;
+  padding-left: 723px;
+  padding-top: 673px;
+}
+
+.seven {
+  position: absolute;
+  padding-left: 565px;
+  padding-top: 633px;
+}
+
+.eight {
+  position: absolute;
+  padding-left: 455px;
+  padding-top: 520px;
+}
+
+.nine {
+  position: absolute;
+  padding-left: 415px;
+  padding-top: 367px;
+}
+
+.then {
+  position: absolute;
+  padding-left: 447px;
+  padding-top: 210px;
+}
+
+.eleven {
+  position: absolute;
+  padding-left: 562px;
+  padding-top: 96px;
+}
+/* Layout */
+.main {
+  display: flex;
+  padding: 2em;
+  height: 90vh;
+  justify-content: center;
+  align-items: middle;
+}
+
+.clockbox,
+#clock {
+  width: 100%;
+}
+.clockbox {
+  padding-left: 283px;
+  padding-top: 85px;
+}
+/* Clock styles */
+.circle {
+  fill: none;
+  stroke: white;
+  stroke-width: 9;
+  stroke-miterlimit: 10;
+}
+
+.mid-circle {
+  fill: #000;
+}
+.hour-marks {
+  fill: none;
+  stroke: white;
+  stroke-width: 9;
+  stroke-miterlimit: 10;
+}
+
+.hour-arm {
+  fill: none;
+  stroke: white;
+  stroke-width: 17;
+  stroke-miterlimit: 10;
+}
+
+.minute-arm {
+  fill: none;
+  stroke: white;
+  stroke-width: 11;
+  stroke-miterlimit: 10;
+}
+
+.second-arm {
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+  fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+#hour,
+#minute,
+#second {
+  transform-origin: 300px 300px;
+  /*transition: transform .5s ease-in-out;*/
+}
+.numbers {
+  position: absolute;
+}
+
+.mid-circle {
+  fill: white;
+}
