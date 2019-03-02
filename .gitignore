@@ -41,6 +41,6 @@ dist/*
 .tmp/
 
 # ignore data folders by jetbrains products
-.idea/
+.idea
 
 #END
