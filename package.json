@@ -1,7 +1,7 @@
 {
   "name": "analogclockreact",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
