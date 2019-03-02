@@ -1,5 +1,6 @@
 {
   "version": "0.1.1",
+  "license": "MIT",
   "name": "@ssadat945/analogclockreact",
   "private": false,
   "dependencies": {
