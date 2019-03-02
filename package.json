@@ -1,6 +1,6 @@
 {
-  "name": "analogclockreact",
   "version": "0.1.0",
+  "name": "@ssadat945/analogclockreact",
   "private": false,
   "dependencies": {
     "react": "^16.8.3",
